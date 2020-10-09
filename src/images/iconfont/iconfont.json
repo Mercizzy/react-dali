@@ -1,0 +1,44 @@
+{
+  "id": "1865752",
+  "name": "jian'shu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "react dellLee的简书项目",
+  "glyphs": [
+    {
+      "icon_id": "6900891",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "7821135",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "287175",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "1621077",
+      "name": "Aa",
+      "font_class": "Aa",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "14666025",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    }
+  ]
+}

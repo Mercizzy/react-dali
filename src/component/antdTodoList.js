@@ -10,10 +10,8 @@ import '../css/antoList.less'
 
 // 引入store
 import store from '../store'
-import { changeInputValueAction, addTodoItemAction, deleteTodoItemAction } from '../store/action/todoAction'
+import { changeInputValueAction, addTodoItemAction, deleteTodoItemAction, getInitData } from '../store/action/todoAction'
 
-// 引入axios
-import axios from 'axios'
 
 class AntdTodoList extends Component {
   constructor(props) {
@@ -32,10 +30,7 @@ class AntdTodoList extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost.charlesproxy.com:3000/api/list.json').then((res)=> {
-      console.log(res);
-      
-    })
+    store.dispatch(getInitData())
   }
 
   handleInputChange = (e)=> {
